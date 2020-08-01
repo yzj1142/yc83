@@ -6,7 +6,7 @@ import com.yc.thread0725.Demo01.A.B;
 
 public class Demo01 {
   public static void main(String []args) {
-     A a=new A("a方法的线程");
+     A a=new A("a方法的线程 ");
 	B b=new B();
 	Thread t=new Thread(b,"b方法的线程");
 	a.start();//启动线程
